@@ -236,8 +236,8 @@ public class MeetSessions {
 			implements BiFunction<String, String, String> {
 		public MeetSessions sessions = MeetSessions.this;
 
-		public Handler(String key, BiFunction<String, String, String> value) {
-			super(key, value);
+		public Handler(String key) {
+			super(key, null);
 		}
 
 		@Override

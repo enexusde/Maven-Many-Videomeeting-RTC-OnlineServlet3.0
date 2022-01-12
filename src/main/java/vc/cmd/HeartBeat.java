@@ -8,7 +8,7 @@ import vc.MeetSessions.MeetSession;
 public class HeartBeat extends Handler {
 
 	public HeartBeat(MeetSessions meetSessions) {
-		meetSessions.super("HEARTBEAT", null);
+		meetSessions.super("HEARTBEAT");
 	}
 
 	@Override

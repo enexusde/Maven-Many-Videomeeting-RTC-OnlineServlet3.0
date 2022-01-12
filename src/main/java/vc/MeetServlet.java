@@ -36,7 +36,6 @@ public class MeetServlet extends HttpServlet {
 	});
 
 	public MeetServlet() {
-		super();
 		sessions.addOnIncommingBrowserTabHandler((me, others) -> {
 			for (MeetSession other : others) {
 				if (me != other) {

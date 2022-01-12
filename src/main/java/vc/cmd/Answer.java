@@ -7,7 +7,7 @@ import vc.MeetSessions.MeetSession;
 public class Answer extends Handler {
 
 	public Answer(MeetSessions meetSessions) {
-		meetSessions.super("ANSWER:", null);
+		meetSessions.super("ANSWER:");
 	}
 
 	@Override

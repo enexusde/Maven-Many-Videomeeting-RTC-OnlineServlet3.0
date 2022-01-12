@@ -7,7 +7,7 @@ import vc.MeetSessions.MeetSession;
 public class OfferSDP extends Handler {
 
 	public OfferSDP(MeetSessions meetSessions) {
-		meetSessions.super("OFFER_SDP:", null);
+		meetSessions.super("OFFER_SDP:");
 	}
 
 	@Override
